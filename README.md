@@ -2,7 +2,7 @@
 
 Train object detection algorithm  for an especial class (Here Balloon Class) using YOLO v8
 
-########################## train balloon class
+#### train balloon class ####
 
 1- Put all pics in file and their labels in another file and put both these file into a file named: pretrain
 
@@ -11,15 +11,13 @@ Train object detection algorithm  for an especial class (Here Balloon Class) usi
 3-type the following commands in the python environment or just copy them into a .py file and run it in cmd:
 
 
-from ultralytics import YOLO
-
-model = YOLO("yolov8n.yaml")  
-
-model.train(data="config.yaml", epochs=100)  
+     from ultralytics import YOLO
+     model = YOLO("yolov8n.yaml")  
+     model.train(data="config.yaml", epochs=100)  
 
 
-########################### predict balloon class
+#### predict balloon class ####
 
 1- just type this command: 
 
-python predict_cam.py
+     python predict_cam.py
