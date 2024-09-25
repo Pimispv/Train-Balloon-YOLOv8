@@ -15,7 +15,7 @@ model.train(data="config.yaml", epochs=100)
 
 
 ########################### predict balloon class
-1- just typr this command: 
+1- just type this command: 
 
 python predict_cam.py
 
